@@ -1,0 +1,54 @@
+body{
+	padding-top: 40px;
+}
+@media screen and (max-width: 768px){
+    body{
+    	padding-top: 0px;
+    }
+}
+.navbar{
+	font-weight: bold;
+}
+.jumbotron{
+	border-style:solid;
+	border-color: rgba(112,112,122,0.2);
+}
+.navbar, .btn {
+	font-weight: bold;
+}
+#go_top{
+	font-size:30px;
+	bottom:30px;
+	left:15px;
+	position:fixed;
+}
+.footer{
+	margin: auto;
+	max-width:75%;
+}
+#login-form{
+	text-align:center;
+}
+#register-form{
+	text-align:center;
+}
+#user-settings-form{
+	text-align:center;
+}
+.lang_button{
+	border:none;
+}
+#notification{
+	margin: 0 auto;
+	margin-bottom:10px;
+	text-align:center;
+	max-width:75%;
+	min-width:40%;
+}
+.lang_img{
+	width:35px;
+	height:25px;
+}
+.btn{
+	cursor: pointer;
+}
